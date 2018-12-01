@@ -9,7 +9,8 @@
   "scripts": {
     "test": "mocha --require babel-polyfill --require babel-register tests/* && exit 0",
     "build": "webpack && exit 0",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "eslint . && exit 0"
   },
   "author": "",
   "license": "ISC",

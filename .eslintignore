@@ -2,3 +2,4 @@
 
 # Игнорируем файлы конфигурации
 webpack.config.js
+build/*
